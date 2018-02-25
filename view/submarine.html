@@ -26,9 +26,22 @@
 </div>
 
 <div id="gameover">
-  <h1>GAME OVER</h1>
-  <h1> You scored <span id="end_score"><span></h1>
-  <button id="reload" onclick="reload()">Reload</button>
+  <h1>GAME OVER: You scored <span id="end_score"><span></h1>
+  <div id="leaderboard_grid">
+    <div id="column_one">
+    </div>
+    <div id="column_two" style="color:#FF06F8">
+    </div>
+    <div id="column_three">
+    </div>
+    <div id="column_four" style="color:#FF06F8">
+    </div>
+  </div>
+  <input id="player_name" value="your_name_here"></input>
+  <br></br>
+  <button id="reload" onclick="addScore(document.getElementById('player_name').value,Number(document.getElementById('end_score').innerHTML))">Save Score</button>
+  <button id="reload" onclick="reload()">Reload Game</button>
 </div>
 
 <script src="submarine.js"></script>
+<script src="leaderboard.js"></script>

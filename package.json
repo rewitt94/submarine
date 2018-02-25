@@ -2,6 +2,8 @@
   "name": "submarine",
   "version": "0.0.1",
   "dependencies": {
-    "express": "4.15.5"
+    "express": "*",
+    "sqlite3": "*",
+    "body-parser": "*"
   }
 }
