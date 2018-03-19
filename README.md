@@ -42,4 +42,4 @@ Can you work it out?
 
 Here you can play the game: http://ricky.hewitt.tech/submarine
 
-Here you can see image copyright: http://ricky.hewitt.tech/copyright
+Visit my website and navigate to the copyright page to find image copyright: http://ricky.hewitt.tech
