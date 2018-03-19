@@ -1,15 +1,28 @@
 var scoreSaved = false;
 
 function addScore(nameInput, scoreInput) {
-  fetch('/submarine_add',{
-    method: 'POST',
-    headers: new Headers({ "Content-Type": "application/json" }),
-    body: JSON.stringify({
-      name: nameInput,
-      score: scoreInput
-    })
-  });
+    if (nameInput.length > 15) {
+      document.getElementById('player_name').value = 'this_name_is_too_long'
+      return
+    }
+    fetch('/submarine_add',{
+      method: 'POST',
+      headers: new Headers({ "Content-Type": "application/json" }),
+      body: JSON.stringify({
+        name: nameInput,
+        score: scoreInput
+      })
+    });
 };
+
+function checkInputLength(nameInput) {
+  if (nameInput.length > 15) {
+    document.getElementById('player_name').value = 'this_name_is_too_long'
+    return false
+  } else {
+    return true
+  }
+}
 
 function loadLeaderboard() {
   fetch('/submarine_load')
@@ -69,10 +82,12 @@ function clearLeaderboard() {
 
 function addToLeaderboard(nameInput, scoreInput) {
   if (!scoreSaved) {
-    scoreSaved = true;
-  addScore(nameInput, scoreInput)
-  clearLeaderboard()
-  setTimeout(() => loadLeaderboard(), 10)
+    if (checkInputLength(nameInput)) {
+      addScore(nameInput, scoreInput)
+      clearLeaderboard()
+      setTimeout(() => loadLeaderboard(), 10)
+      scoreSaved = true;
+    }
   }
 }
 

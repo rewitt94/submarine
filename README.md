@@ -1,5 +1,3 @@
-Note-to-self: Make it so that you cannot enter long highscores...
-
 # Submarine
 
 ![submarine screenshot](https://raw.githubusercontent.com/rewitt94/submarine/master/screenshots/submarine-screenshot.png)
