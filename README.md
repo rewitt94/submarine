@@ -4,7 +4,7 @@ Note-to-self: Make it so that you cannot enter long highscores...
 
 ![submarine screenshot](https://raw.githubusercontent.com/rewitt94/submarine/master/screenshots/submarine-screenshot.png)
 
-### What is this project?
+### What is this project?
 
 This was my first programming achievement.
 This game was built before I discovered TDD.
@@ -22,7 +22,7 @@ This game is built with vanilla Javascript, HTML and CSS.
 I used express to host it on my local machine.
 I later added a sqlite database and a very basic api to my server to store highscores. All of this is now intergrated into my website.
 
-### How did I program this game?
+### How did I program this game?
 
 The design is simple enough.
 An update() function is called by a SetInterval() which updates the game dependent on various booleans.
@@ -32,7 +32,7 @@ For example if (vector.left == true) the sub will move left.
 The booleans for collisions of images (on transparent backgrounds) include lots of "seemingly magic" numbers.
 Hey, it works.
 
-### Can I try the game?
+### Can I try the game?
 
 This is a game hosted on my website so why not have a play!
 Also there is a VERY simple bug (that could easily be resolved) which will enable you to cheat a good highscore.
