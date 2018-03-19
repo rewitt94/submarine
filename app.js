@@ -33,7 +33,6 @@ app.get('/submarine_load', function(req,res){
 app.post('/submarine_add', function(req,res){
   var name = req.body.name;
   var score = req.body.score;
-  console.log([name,score]);
   db.run(`INSERT INTO leaderboard
   VALUES ('${name}', ${score})`);
 });

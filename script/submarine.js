@@ -4,11 +4,6 @@ sub.style.bottom = '300px'
 sub.style.left = '50px'
 
 
-var flame = document.getElementById('flame');
-flame.style.left = '-2000px';
-flame.style.bottom = '50px'
-
-
 // One
 // all the booeans and numbers
 
