@@ -2,7 +2,7 @@ Note-to-self: Make it so that you cannot enter long highscores...
 
 # Submarine
 
-![submarine screenshot](https://github.com/rewitt94/submarine/screenshots/submarine-screenshot.png)
+![submarine screenshot](https://raw.githubusercontent.com/rewitt94/submarine/master/screenshots/submarine-screenshot.png)
 
 ### What is this project?
 
@@ -20,7 +20,7 @@ Have a look at the code if you're feeling brave.
 
 This game is built with vanilla Javascript, HTML and CSS.
 I used express to host it on my local machine.
-I later added a sqlite database and a very basic api to my server to store highscores.
+I later added a sqlite database and a very basic api to my server to store highscores. All of this is now intergrated into my website.
 
 ### How did I program this game?
 
