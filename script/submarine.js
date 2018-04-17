@@ -54,7 +54,7 @@ function play() {
 
 // Four
 // This is the bulk of the code
-// let's define or functions that run on loop
+// here are the functions that run on loop
 
 function subMove() {
   if (turbo) {
