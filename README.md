@@ -1,8 +1,10 @@
 # Submarine
 
+### Play: http://ricky.hewitt.tech/submarine
+
 ![submarine screenshot](https://raw.githubusercontent.com/rewitt94/submarine/master/screenshots/submarine-screenshot.png)
 
-### What is this project?
+### What is this project to me?
 
 This was my first programming achievement.
 This game was built before I discovered TDD.
@@ -37,7 +39,5 @@ Also there is a VERY simple bug (that could easily be resolved) which will enabl
 Can you work it out?
 
 ***
-
-Here you can play the game: http://ricky.hewitt.tech/submarine
 
 Visit my website and navigate to the copyright page to find image copyright: http://ricky.hewitt.tech
