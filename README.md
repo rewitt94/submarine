@@ -4,7 +4,7 @@
 
 ![submarine screenshot](https://raw.githubusercontent.com/rewitt94/submarine/master/screenshots/submarine-screenshot.png)
 
-### What is this project to me?
+### What is this project?
 
 This was my first programming achievement.
 This game was built before I discovered TDD.
